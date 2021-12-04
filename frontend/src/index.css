@@ -128,11 +128,17 @@ a.brand{
 .col-2{
   flex: 2 1 50rem;
 }
-
+.min-30{
+  min-width: 30rem;
+}
 
 /*Image */
 img {
   border-radius: 0.5rem;
+}
+img.small {
+  max-width: 10rem ;
+  width: 100%;
 }
 img.medium{
   max-width: 29rem;
@@ -189,3 +195,5 @@ img.large{
   color:#a02020;
   background-color:#ffe0e0e0;
 }
+
+

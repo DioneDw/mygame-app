@@ -17,7 +17,7 @@ export default function ProductScreen(props) {
     useEffect(() => {
         dispatch(detailsProduct(productId));
     }, [dispatch, productId]);
-    const addToCartHandler = () =>{
+    const addToCartHandler = () => {
         props.history.push(`/cart/${productId}?qtd=${qtd}`);
     };
 
@@ -94,9 +94,9 @@ export default function ProductScreen(props) {
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <button 
-                                                    onClick={addToCartHandler}
-                                                    className="primary block">Adicionar ao Carrinho</button>
+                                                    <button
+                                                        onClick={addToCartHandler}
+                                                        className="primary block">Adicionar ao Carrinho</button>
                                                 </li>
                                             </>
                                         )

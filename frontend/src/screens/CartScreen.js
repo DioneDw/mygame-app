@@ -21,7 +21,6 @@ export default function CartScreen(props) {
 
 
     const removeFromCartHandler = (id) => {
-        // delect action
         dispatch(removeFromCart(id));
     };
 

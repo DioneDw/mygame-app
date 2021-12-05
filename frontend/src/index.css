@@ -29,7 +29,7 @@ body{
 }
 header{
   grid-area: header;
-  background-color: #f34646;
+  background-color: #2f7ab8;
 }
 /*#203040; */
 main{
@@ -38,7 +38,7 @@ main{
 }
 footer{
   grid-area: footer;
-  background-color: #f34646;
+  background-color: #2f7ab8;
   color:#ffffff;
 }
 /* Classes Comuns */
@@ -175,6 +175,9 @@ img.large{
 }
 
 /*  Alerta de estoque */
+.loading{
+  display: block !important;
+}
 .success {
   color: #20a020;
 }

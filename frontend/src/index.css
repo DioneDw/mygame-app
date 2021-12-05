@@ -29,15 +29,16 @@ body{
 }
 header{
   grid-area: header;
-  background-color: #203040;
+  background-color: #f34646;
 }
+/*#203040; */
 main{
   grid-area: main;
   padding: 1rem;
 }
 footer{
   grid-area: footer;
-  background-color: #203040;
+  background-color: #f34646;
   color:#ffffff;
 }
 /* Classes Comuns */
@@ -208,5 +209,25 @@ img.large{
 }
 .form label{
   margin: 1rem 0;
+  display: block;
+}
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  position: absolute;
+  display: none;
+  right: 0;
+  min-width: 12rem;
+  padding: 1rem;
+  z-index: 1;
+  background-color: #203040;
+  margin: 0;
+  margin-top: 0.4rem;
+  border-radius: 0.5rem;
+}
+.dropdown:hover .dropdown-content {
   display: block;
 }

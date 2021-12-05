@@ -133,7 +133,7 @@ a.brand{
   min-width: 30rem;
 }
 
-/*Image */
+/*Imagens */
 img {
   border-radius: 0.5rem;
 }
@@ -148,7 +148,7 @@ img.medium{
 img.large{
   width: 95%;
 }
-/* Card */
+/* Carrinho */
 .card{
   border: 0.1rem #c0c0c0 solid;
   background-color: #f8f8f8;
@@ -233,4 +233,17 @@ img.large{
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Passo a Passo da compra */
+.checkout-steps > div{
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex:1;
+  padding: 1rem;
+  font-weight: bold;
+}
+.checkout-steps > div.active {
+  border-top-color: #f08000;
+  color: #f08000;
 }

@@ -6,6 +6,7 @@ import AddressInfoScreen from './screens/AddressScreen';
 import CartScreen from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
 import PaymentScreen from './screens/PaymentScreen';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import ProductScreen from './screens/ProductScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import SigninScreen from './screens/SigninScreen';
@@ -61,6 +62,7 @@ function App() {
           <Route path="/register" component={RegisterScreen}></Route>
           <Route path="/shipping" component={AddressInfoScreen} exact></Route>
           <Route path="/payment" component={PaymentScreen} exact></Route>
+          <Route path="/placeorder" component={PlaceOrderScreen} exact></Route>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer className="row center">Todos os direitos reservados, Projeto desenvolvido para trabalho Banco de Dados 2- UFOP</footer>

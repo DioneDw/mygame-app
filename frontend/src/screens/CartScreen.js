@@ -73,7 +73,7 @@ export default function CartScreen(props) {
                                             type="button"
                                             onClick={() => removeFromCartHandler(item.product)}
                                         >
-                                            Delete
+                                            Remover do carrinho
                                         </button>
                                     </div>
                                 </div>

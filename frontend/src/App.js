@@ -9,6 +9,7 @@ import OrderScreen from './screens/OrderScreen';
 import PaymentScreen from './screens/PaymentScreen';
 import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import ProductScreen from './screens/ProductScreen';
+import ProfileScreen from './screens/ProfileScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import SigninScreen from './screens/SigninScreen';
 
@@ -44,6 +45,9 @@ function App() {
                   {userInfo.name} <i className="fa fa-caret-down"></i>{' '}
                 </Link>
                 <ul className="dropdown-content">
+                <li>
+                    <Link to="/profile">Editar Perfil</Link>
+                  </li>
                   <li>
                     <Link to="#signout" onClick={signoutHandler}>
                       Deslogar
@@ -65,6 +69,7 @@ function App() {
           <Route path="/payment" component={PaymentScreen} exact></Route>
           <Route path="/placeorder" component={PlaceOrderScreen} exact></Route>
           <Route path="/order/:id" component={OrderScreen}exact></Route>
+          <Route path="/profile" component={ProfileScreen}exact></Route>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer className="row center">Todos os direitos reservados, Projeto desenvolvido para trabalho Banco de Dados 2- UFOP</footer>

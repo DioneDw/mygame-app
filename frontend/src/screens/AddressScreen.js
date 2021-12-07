@@ -33,28 +33,28 @@ export default function AddressInfoScreen(props) {
                     <label htmlFor="fullName">Nome Completo</label>
                     <input type="text" id="fullName" placeholder="Informe o nome completo"
                         value={fullName}
-                        onChange={(e) => setFullName(e.target.value)} >
+                        onChange={(e) => setFullName(e.target.value)}>
                     </input>
                 </div>
                 <div>
                     <label htmlFor="address">Endereço</label>
                     <input type="text" id="address" placeholder="Informe seu endereço"
                         value={address}
-                        onChange={(e) => setAddress(e.target.value)} >
+                        onChange={(e) => setAddress(e.target.value)}>
                     </input>
                 </div>
                 <div>
                     <label htmlFor="city">Cidade</label>
                     <input type="text" id="city" placeholder="Informe a sua cidade"
                         value={city}
-                        onChange={(e) => setCity(e.target.value)} >
+                        onChange={(e) => setCity(e.target.value)}>
                     </input>
                 </div>
                 <div>
                     <label htmlFor="postalCode">CEP</label>
                     <input type="text" id="postalCode" placeholder="Informe o seu CEP"
                         value={postalCode}
-                        onChange={(e) => setPostalCode(e.target.value)} >
+                        onChange={(e) => setPostalCode(e.target.value)}>
                     </input>
                 </div>
                 <div>

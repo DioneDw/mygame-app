@@ -18,3 +18,16 @@ export const orderCreateReducer = (state = {}, action) =>{
             return state;
     }
 };
+
+export const orderDetailsReducer = (state={loading:true, order:{}}, action)=>{
+    switch (action.type) {
+      case ORDER_CREATE_REQUEST:
+          return {loading: true};
+      case ORDER_CREATE_SUCCESS:
+          return {loading: false, order: action.payload };
+      case ORDER_CREATE_FAIL:
+          return {loading: false, order: action.payload };
+      default:
+          return state;
+    }
+}

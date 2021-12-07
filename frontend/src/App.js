@@ -12,6 +12,7 @@ import ProductScreen from './screens/ProductScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import SigninScreen from './screens/SigninScreen';
+import PrivateRoute from './components/PrivateRoute';
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -69,7 +70,10 @@ function App() {
           <Route path="/payment" component={PaymentScreen} exact></Route>
           <Route path="/placeorder" component={PlaceOrderScreen} exact></Route>
           <Route path="/order/:id" component={OrderScreen}exact></Route>
-          <Route path="/profile" component={ProfileScreen}exact></Route>
+          <PrivateRoute
+            path="/profile"
+            component={ProfileScreen}
+          ></PrivateRoute>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer className="row center">Todos os direitos reservados, Projeto desenvolvido para trabalho Banco de Dados 2- UFOP</footer>

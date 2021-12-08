@@ -17,7 +17,6 @@ shippingAddress: {
     city:{type:String, required: true},
     postalCode:{type:String, required: true},
 },
-
 paymentMethod: {type: String, required: true},
     itemsPrice:{type: Number, required: true},
     taxPrice:{type: Number, required: true},
@@ -33,6 +32,7 @@ paymentMethod: {type: String, required: true},
 }
 );
 
+// Criando um Model para os Pedidos utilizando o mongoose.
 const Order = mongoose.model('Order', orderSchema);
 
 export default Order;

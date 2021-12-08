@@ -1,6 +1,6 @@
 import  Mongoose  from 'mongoose';
 
-
+// Criando um  Schema para os Produtos utilizando o mongoose
 const productSchema = new Mongoose.Schema( {
     name: {type: String, required: true, unique: true},
     category: {type: String, required: true},
@@ -17,6 +17,7 @@ const productSchema = new Mongoose.Schema( {
 timestamps: true,
 });
 
+// Criando um Model para os Produtos utilizando o mongoose
 const Product= Mongoose.model('Product', productSchema);
 
 export default Product;

@@ -30,7 +30,7 @@ function App() {
         <header className="row">
           <div>
             <Link className="brand" to="/">
-              Meujogo.com
+              Meujogo
             </Link>
           </div>
           <div>

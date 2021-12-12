@@ -22,15 +22,26 @@ Este projeto foi inicializado com [Create React App] (https://github.com/faceboo
 
 --------------------------------------------------------------------------------------------------------------------------
 
-## Após instalar as ferramentas (node.js, MongoDB) e necessário iniciar o BACK-END através do comando npm start (pelo terminal, na pasta principal).
+## Ferramentas essenciais para funcionamento da aplicação: 
+**Node.js, Editor de Texto, MongoDB**
+
+
+Necessário iniciar o BACK-END através do comando  **npm start (pelo terminal, na pasta principal)**.
 
 Para verificarmos que o servidor está ativo podemos consultar no navegador através do endereço: http://localhost:5000/
+
 O mesmo exibirá a informação: Server is ready
 
 Posteriormente para inserção dos dados de maneira prática no banco de dados,  utilizar o comando no navegador:
 http://localhost:5000/api/users/seed
+
+
 http://localhost:5000/api/users/seed
+
+
 Os dados dos usuários base e dos produtos base contidos no arquivo data.js serão inseridos no banco de dados (Código detalhado nas linhas: 10 a 17 no arquivo userRouter.js e 15 a 22 no arquivo productRouter.js
+
+Após isto podemos iniciar o app react atraves do comando: **npm start (pelo terminal, na pasta frontend)**.
 
 --------------------------------------------------------------------------------------------------------------------------
 ## Sobre o React

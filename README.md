@@ -8,9 +8,34 @@ Seguir passos abaixo para instalação das ferramentas necessárias para execuç
 
 Este projeto foi inicializado com [Create React App] (https://github.com/facebook/create-react-app).
 
-## Scripts Disponíveis
+--------------------------------------------------------------------------------------------------------------------------
 
-No diretório do projeto, você pode executar:
+## Tecnologias que serão utilizadas na concepção do projeto e suas utilidades:
+•	CSS 3 e HTML 5 (para criar o design site)
+•	React (para implementar as funcionalidades front-end da aplicação)
+•	Redux (para gerenciar os estados da aplicação)
+•	NodeJs (para criar o back-end escalável)
+•	Mongoose (para criar a conexão entre o Mongodb e a aplicação nodejs)
+•	JSON Web Tokens (Para criar a autenticações dos usuários)
+•	Bcrypt.js (Para encriptar as senhas no banco de dados)
+•	MongoDB with Compass (Banco de dados + GUI)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+## Após instalar as ferramentas (node.js, MongoDB) e necessário iniciar o BACK-END através do comando npm start (pelo terminal, na pasta principal).
+
+Para verificarmos que o servidor está ativo podemos consultar no navegador através do endereço: http://localhost:5000/
+O mesmo exibirá a informação: Server is ready
+
+Posteriormente para inserção dos dados de maneira prática no banco de dados,  utilizar o comando no navegador:
+http://localhost:5000/api/users/seed
+http://localhost:5000/api/users/seed
+Os dados dos usuários base e dos produtos base contidos no arquivo data.js serão inseridos no banco de dados (Código detalhado nas linhas: 10 a 17 no arquivo userRouter.js e 15 a 22 no arquivo productRouter.js
+
+--------------------------------------------------------------------------------------------------------------------------
+## Sobre o React
+
+No diretório do projeto, você pode executar, na pasta frontend:
 
 ### `npm start`
 
@@ -50,28 +75,3 @@ Você não precisa usar `ejetar`. O conjunto de recursos selecionados é adequad
 Você pode saber mais na [documentação do aplicativo Criar React] (https://facebook.github.io/create-react-app/docs/getting-started).
 
 Para aprender o React, verifique a [documentação do React] (https://reactjs.org/)
---------------------------------------------------------------------------------------------------------------------------
-
-## Tecnologias que serão utilizadas na concepção do projeto e suas utilidades:
-•	CSS 3 e HTML 5 (para criar o design site)
-•	React (para implementar as funcionalidades front-end da aplicação)
-•	Redux (para gerenciar os estados da aplicação)
-•	NodeJs (para criar o back-end escalável)
-•	Mongoose (para criar a conexão entre o Mongodb e a aplicação nodejs)
-•	JSON Web Tokens (Para criar a autenticações dos usuários)
-•	Bcrypt.js (Para encriptar as senhas no banco de dados)
-•	MongoDB with Compass (Banco de dados + GUI)
-
---------------------------------------------------------------------------------------------------------------------------
-
-Após instalar as ferramentas (node.js, MongoDB) e necessário iniciar o BACK-END através do comando npm start (pelo terminal, na pasta principal).
-
-Para verificarmos que o servidor está ativo podemos consultar no navegador através do endereço: http://localhost:5000/
-O mesmo exibirá a informação: Server is ready
-
-Posteriormente para inserção dos dados de maneira prática no banco de dados,  utilizar o comando no navegador:
-http://localhost:5000/api/users/seed
-http://localhost:5000/api/users/seed
-Os dados dos usuários base e dos produtos base contidos no arquivo data.js serão inseridos no banco de dados (Código detalhado nas linhas: 10 a 17 no arquivo userRouter.js e 15 a 22 no arquivo productRouter.js
-
---------------------------------------------------------------------------------------------------------------------------

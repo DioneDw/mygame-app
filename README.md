@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+Projeto criado no Trabalho Prático de Banco de Dados 2. 
+
+Matéria ministrada pelo Professor Bruno Rabello, pela Faculdade Federal de Ouro Preto (UFOP) - Campos João Monlevade
+2021-Dez
+
+Seguir passos abaixo para instalação das ferramentas necessárias para execução do projeto.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
